@@ -76,7 +76,7 @@ The WebSocket connection receives various types of messages:
    - `<\|reset\|>`: Chatbot is resetting the last message to rewrite it.
    - `<\|on_streaming_done\|>`: Chatbot finished streaming the current message.
 2. **Control Messages:**
-   - `<&#124;keep_alive&#124;>`: Keep-alive signal.
+   - <&#124;keep_alive&#124;>: Keep-alive signal.
    - `<&#124;on_checking&#124;>`: Chatbot is checking availability.
    - `<&#124;on_done_checking&#124;>`: Chatbot finished checking availability.
    - `<&#124;reset&#124;>`: Chatbot is resetting the last message to rewrite it.
