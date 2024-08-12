@@ -70,11 +70,11 @@ La connessione WebSocket riceve vari tipi di messaggi:
 
 1. **Messaggi Regolari:** Risposte di testo dal chatbot.
 2. **Messaggi di Controllo:**
-   - `<\|keep_alive\|>`: Segnale di keep-alive.
-   - `<\|on_checking\|>`: Il chatbot sta verificando la disponibilità.
-   - `<\|on_done_checking\|>`: Il chatbot ha finito di verificare la disponibilità.
-   - `<\|reset\|>`: Il chatbot sta reimpostando l'ultimo messaggio per riscriverlo.
-   - `<\|on_streaming_done\|>`: Il chatbot ha finito di trasmettere il messaggio corrente.
+   - <&#124;keep_alive&#124;>: Segnale di keep-alive.
+   - <&#124;on_checking&#124;>: Il chatbot sta verificando la disponibilità.
+   - <&#124;on_done_checking&#124;>: Il chatbot ha finito di verificare la disponibilità.
+   - <&#124;reset&#124;>: Il chatbot sta reimpostando l'ultimo messaggio per riscriverlo.
+   - <&#124;on_streaming_done&#124;>: Il chatbot ha finito di trasmettere il messaggio corrente.
 
 
 ### Flusso di Utilizzo
