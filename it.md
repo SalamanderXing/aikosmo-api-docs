@@ -17,13 +17,13 @@ API_DOMAIN=`aikosmo-server-production.up.railway.app`
   - `chatbot_slug`: Identificatore per lo specifico chatbot (opzionale)
 
 - **Risposta:**
-"""
+```json
   {
     "message": "Messaggio introduttivo",
     "suggested_questions": ["Domanda 1", "Domanda 2"],
     "token": "session_token"
   }
-"""
+```
 
 ## 2. Ottenere il Messaggio Introduttivo
 
@@ -39,7 +39,7 @@ API_DOMAIN=`aikosmo-server-production.up.railway.app`
   - `token`: Token di sessione esistente (opzionale)
 
 - **Risposta:**
-"""
+```json
   {
     "message": "Messaggio introduttivo",
     "suggested_questions": ["Domanda 1", "Domanda 2"],
@@ -49,7 +49,7 @@ API_DOMAIN=`aikosmo-server-production.up.railway.app`
     ],
     "token": "session_token"
   }
-"""
+```
 
 ## 3. Connessione WebSocket
 
@@ -84,3 +84,7 @@ La connessione WebSocket riceve vari tipi di messaggi:
 4. Ricevi e processa le risposte del chatbot e i messaggi di controllo.
 5. Gestisci i messaggi di controllo speciali per azioni specifiche del chatbot.
 
+
+### Esempi
+
+[Questo esempio](./example.ts) mostra come usare l'API. In quel codice non viene usata l'API key perche' e' sotto il nostro dominio. Ma il concetto e' identico.
