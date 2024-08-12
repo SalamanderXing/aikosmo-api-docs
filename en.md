@@ -69,18 +69,12 @@ Send user messages directly through the WebSocket connection.
 The WebSocket connection receives various types of messages:
 
 1. **Regular Messages:** Text responses from the chatbot.
-2. **Control Messages:**
-   - `<\|keep_alive\|>`: Keep-alive signal.
-   - `<\|on_checking\|>`: Chatbot is checking availability.
-   - `<\|on_done_checking\|>`: Chatbot finished checking availability.
-   - `<\|reset\|>`: Chatbot is resetting the last message to rewrite it.
-   - `<\|on_streaming_done\|>`: Chatbot finished streaming the current message.
-2. **Control Messages:**
-   - <&#124;keep_alive&#124;>: Keep-alive signal.
-   - `<&#124;on_checking&#124;>`: Chatbot is checking availability.
-   - `<&#124;on_done_checking&#124;>`: Chatbot finished checking availability.
-   - `<&#124;reset&#124;>`: Chatbot is resetting the last message to rewrite it.
-   - `<&#124;on_streaming_done&#124;>`: Chatbot finished streaming the current message.
+2. **Messaggi di Controllo:**
+   - <&#124;keep_alive&#124;>: Segnale di keep-alive.
+   - <&#124;on_checking&#124;>: Il chatbot sta verificando la disponibilità.
+   - <&#124;on_done_checking&#124;>: Il chatbot ha finito di verificare la disponibilità.
+   - <&#124;reset&#124;>: Il chatbot sta reimpostando l'ultimo messaggio per riscriverlo.
+   - <&#124;on_streaming_done&#124;>: Il chatbot ha finito di trasmettere il messaggio corrente.
 
 ### Usage Flow
 
