@@ -14,7 +14,7 @@ API_DOMAIN=`aikosmo-server-production.up.railway.app`
 
 - **Parametri di Query:**
   - `language`: Codice della lingua (es. `"en"`)
-  - `chatbot_slug`: Identificatore per lo specifico chatbot (opzionale)
+  - `chatbot_slug`: Identificatore per lo specifico chatbot
 
 - **Risposta:**
 ```json
@@ -36,7 +36,7 @@ API_DOMAIN=`aikosmo-server-production.up.railway.app`
 - **Parametri di Query:**
   - `language`: Codice della lingua (es. `"en"`)
   - `chatbot_slug`: Identificatore per lo specifico chatbot
-  - `token`: Token di sessione esistente (opzionale)
+  - `token`: Token di sessione esistente
 
 - **Risposta:**
 ```json
